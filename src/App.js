@@ -210,7 +210,7 @@ export default function App() {
   // Language state
   const [language, setLanguage] = useState('de');
   
-  const REQUIRED_PASSWORD = process.env.REACT_APP_LOGIN_PASSWORD || 'musik2025';
+  const REQUIRED_PASSWORD = process.env.LOGIN_PASSWORD || 'musik2025';
 
   useEffect(() => {
     // Language detection and persistence
